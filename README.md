@@ -4,7 +4,15 @@ A tiny `.bat` script to switch between the **classic** (Windows 10-style) and th
 
 No installation. No dependencies. Fully reversible.
 
-![Screenshot](screenshot.png)
+## Screenshots
+
+**The script itself (Command Prompt):**
+
+![Script running](screenshot-script.png)
+
+**Context menu comparison — Windows 11 vs Windows 10, on a folder and on the desktop:**
+
+![Context menu comparison](screenshot-menus.png)
 
 ## What it does
 
@@ -58,34 +66,3 @@ If you'd rather undo the change by hand:
 ## License
 
 MIT — see [LICENSE](LICENSE).
-
----
-
-## Русская версия
-
-Небольшой `.bat`-скрипт для переключения между **классическим** контекстным меню (как в Windows 10) и **меню Windows 11**.
-
-Без установки, без зависимостей, полностью обратимо.
-
-### Что делает
-
-- **Пункт 1 — меню Windows 11** — удаляет ключ реестра, возвращая стандартное меню Windows 11.
-- **Пункт 2 — классическое меню** — создаёт ключ, возвращая меню в стиле Windows 10.
-
-После изменения скрипт перезапускает `explorer.exe`, чтобы настройка применилась сразу.
-
-### Использование
-
-1. Скачай `Classic-Right-Click-Color.bat`.
-2. Запусти двойным кликом.
-3. Выбери пункт:
-   - `1` — меню Windows 11
-   - `2` — классическое меню
-   - `3` — выход
-
-### Предупреждения
-
-- Меняется только ветка `HKCU` — то есть только для текущего пользователя.
-- `explorer.exe` перезапускается: панель задач на пару секунд исчезает, открытые окна Проводника закрываются.
-- Метод неофициальный: Microsoft может сломать его в будущем обновлении.
-- Антивирусы иногда ругаются на `.bat`, который лезет в реестр, — это нормально.
