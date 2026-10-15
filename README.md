@@ -9,13 +9,13 @@ No installation. No dependencies. Fully reversible.
 **The script itself (Command Prompt):**
 
 <p align="center">
-  <img src="screenshots/screenshot-script.png" width="840" alt="Script running">
+  <img src="screenshots/screenshot-script.png" width="837" alt="Script running">
 </p>
 
 **Context menu comparison — Windows 11 vs Windows 10, on a folder and on the desktop:**
 
 <p align="center">
-  <img src="screenshots/screenshot-menus.png" width="840" alt="Context menu comparison">
+  <img src="screenshots/screenshot-menus.png" width="837" alt="Context menu comparison">
 </p>
 
 ## What it does
