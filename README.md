@@ -22,7 +22,7 @@ After applying a change, the script restarts `explorer.exe` so the new menu take
 **The script itself (Command Prompt):**
 
 <p align="center">
-  <img src="screenshots/screenshot-script.png" width="630" alt="Script running">
+  <img src="screenshots/screenshot-script.png" width="840" alt="Script running">
 </p>
 
 ## Requirements
