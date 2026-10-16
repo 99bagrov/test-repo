@@ -1,6 +1,6 @@
 # Windows 11 Context Menu Switcher
 
-**Context menu comparison — Windows 11 vs Windows 10, on the desktop and on a folder:**
+**Context menu comparison — Windows 11 vs Classic, on the desktop and on a folder:**
 
 <p align="center">
   <img src="screenshots/screenshot-menus.png" width="837" alt="Context menu comparison">
