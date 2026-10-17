@@ -1,11 +1,5 @@
 # Windows 11 Context Menu Switcher
 
-**The script itself (Command Prompt):**
-
-<p align="center">
-  <img src="screenshots/screenshot-script.png" width="837" alt="Script running">
-</p>
-
 **Context menu comparison — Windows 11 vs Classic, on the desktop and on a folder:**
 
 <p align="center">
@@ -24,6 +18,12 @@ HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer3
 - **Option 2 – Classic context menu** — creates the key, bringing back the Windows 10-style menu.
 
 After applying a change, the script restarts `explorer.exe` so the new menu takes effect immediately.
+
+**The script itself (Command Prompt):**
+
+<p align="center">
+  <img src="screenshots/screenshot-script.png" width="837" alt="Script running">
+</p>
 
 ## Requirements
 
